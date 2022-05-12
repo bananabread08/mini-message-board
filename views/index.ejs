@@ -2,10 +2,20 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
+    <!--my first ever usage of EJS-->
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <ul>
+      <% for (let i = 0; i < messages.length; i++) { %>
+      <li>
+        <h1><%= messages[i].text %></h1>
+        <p><%= messages[i].user %></p>
+        <p><%= messages[i].added %></p>
+      </li>
+      <% } %>
+    </ul>
   </body>
 </html>
