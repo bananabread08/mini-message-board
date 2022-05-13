@@ -1,8 +1,31 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+ol,
+li {
+  list-style: none;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.message-container {
+  border: 2px solid whitesmoke;
+  border-left: 3px solid green;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  width: 40vw;
+  min-width: 300px;
+}
+
+textarea {
+  resize: none;
 }
