@@ -1,6 +1,6 @@
 # Project: Mini Message Board
 
-![Imgur](https://guarded-everglades-52797.herokuapp.com/)
+![Imgur](https://imgur.com/YIsI0vd)
 
 [Demo](https://guarded-everglades-52797.herokuapp.com/)
 
